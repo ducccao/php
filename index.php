@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<body>
+$x = null;
+$ar = ["duc1", "duc2", "duc3"];
 
-    <?php
-    echo "Hello World!<br>";
-    echo "Hello World!<br>";
-    echo "Hello World!<br>";
-    ?>
 
-    <?php
-    $color = "red";
-    echo "$color";
-    ?>
-
-</body>
-
-</html>
+foreach ($ar as $item) {
+    echo $item;
+}
